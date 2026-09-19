@@ -87,6 +87,33 @@ h1 {
   transform: translateY(-50%);
 }
 
+.label.ne,
+.label.se,
+.label.sw,
+.label.nw {
+  font-size: 0.8rem;
+}
+
+.label.ne {
+  top: 44px;
+  right: 44px;
+}
+
+.label.se {
+  bottom: 44px;
+  right: 44px;
+}
+
+.label.sw {
+  bottom: 44px;
+  left: 44px;
+}
+
+.label.nw {
+  top: 44px;
+  left: 44px;
+}
+
 .needle {
   position: absolute;
   inset: 0;
